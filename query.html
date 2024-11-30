@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query?</title>
+</head>
+<style>
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 25vh;
+    background-color: black;
+}
+.main{
+    text-align: center;
+    width: 600px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid white;
+    padding: 10px;
+
+}
+.main th,tr{
+    text-align: left;
+}
+input{
+    border-radius: 10px;
+}textarea{
+    border-radius: 10px;
+}
+
+</style>
+<body>
+    <div class="main">
+        <form action="https://formsubmit.co/20kq1a0541@pace.ac.in" method="POST">
+            <h1>Form Integration</h1>
+            <div>
+                <table rowpadding="50px">
+                    <div>
+                        <tr>
+                            <td><label for="User">Name of the User </label></td>
+                            <td><input type="text" id="User" name="Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Enter Your Email</label></td>
+                            <td><input type="email" id="email" name="Email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mobile">Name your mobile number</label></td>
+                            <td><input type="number" id="mobile" name="Mobile Number" pattern="[0-9]+{10}"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="msg">Type your Message</label></td>
+                            <td><textarea name="msg" id="msg" rows="4" cols="50"></textarea></td>
+                        </tr>
+                    </div>
+                </table>
+                <button type="submit" class="sub">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
